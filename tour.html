@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="fancybox_dist/jquery.fancybox.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BPuni</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <input type="checkbox" name="" id="menu_control" />
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="pics/Logo.jpg" alt="Logo"/></a>
+          <label class="hb" for="menu_control">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+          </label>
+        </div>
+        <nav>
+          <div class="nav-content">
+            <a href="tour.html" class="page-now">TOUR</a>
+            <a href="music_and_videos.html">MUSIC + VIDEOS</a>
+            <a href="store.html">STORE</a>
+            <a href="news.html">NEWS</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Music Info -->
+    <section class="music-info">
+      <!-- Bread Crumb -->
+      <div class="breadcrumb">
+        <div class="container">
+          <span
+            ><a href="index.html">Home</a> / <a href="store.html">Store</a>
+          </span>
+        </div>
+      </div>
+      <!-- Bread Crumb End -->
+      <div class="container">
+        <h2>IN YOUR AREA TOUR</h2>
+        <div class="select-wrapper">
+          <select name="" id="">
+            <option value="Korea">Korea</option>
+            <option value="Japan">Japan</option>
+            <option value="America">America</option>
+            <option value="Europe">Europe</option>
+            <option value="Taiwan">Taiwan</option>
+          </select>
+        </div>
+        <ul>
+          <li>
+            <div class="date">MAY 03 2019</div>
+            <div class="location">Park THeater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03 2019</div>
+            <div class="location">Park THeater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03 2019</div>
+            <div class="location">Park THeater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03 2019</div>
+            <div class="location">Park THeater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03 2019</div>
+            <div class="location">Park THeater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03 2019</div>
+            <div class="location">Park THeater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Music Info End -->
+    <!-- Booking System -->
+    <section class="booking-system">
+      <div class="booking-title">
+        <h3>GET YOUR TICKET</h3>
+      </div>
+      <div class="booking-part">
+        <div class="container">
+          <div class="booking court">
+            <span>1. Choose your court</span>
+            <div class="input-field">
+              <label for="country">Country</label>
+              <div class="select-wrapper">
+                <select id="country">
+                  <option value="Korea">Korea</option>
+                  <option value="Japan">Japan</option>
+                  <option value="America">America</option>
+                  <option value="Europe">Europe</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-field">
+              <label for="date">Date</label>
+              <div class="select-wrapper">
+                <select id="date">
+                  <option value="2019-04-17">2019-04-17</option>
+                  <option value="2019-04-27">2019-04-27</option>
+                  <option value="2019-05-02">2019-05-02</option>
+                  <option value="2019-05-22">2019-05-22</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="booking seat">
+            <span>2. Select your seat</span>
+            <div class="input-field">
+              <div class="pic">
+                <a href="javascript:;"
+                  ><img src="pics/seats.png" alt="Concert Seats"
+                /></a>
+              </div>
+              <label for="seat">Seat</label>
+              <div class="select-wrapper">
+                <select id="seat">
+                  <option value="F1">F1</option>
+                  <option value="F2">F2</option>
+                  <option value="F3">F3</option>
+                  <option value="F4">F4</option>
+                  <option value="F5">F5</option>
+                  <option value="F6">F6</option>
+                  <option value="F7">F7</option>
+                  <option value="F8">F8</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="booking contact-info">
+            <span>3. Leave your contact info</span>
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="enter your email..."
+              />
+            </div>
+            <button>CONFIRM</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Booking System End -->
+    <!-- Photos -->
+    <section class="photos">
+      <div class="title">
+        <div class="container">
+          <span>LATEST FROM</span>
+          <h2>@INYOURAREATOUR</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="pics">
+          <a data-fancybox="gallery" href="pics/concert_perform_1.jpg"
+            ><img src="pics/concert_perform_1.jpg" alt="concert perform"
+          /></a>
+          <a data-fancybox="gallery" href="pics/concert_perform_2.jpg"
+            ><img src="pics/concert_perform_2.jpg" alt="concert perform"
+          /></a>
+          <a data-fancybox="gallery" href="pics/concert_perform_3.jpg"
+            ><img src="pics/concert_perform_3.jpg" alt="concert perform"
+          /></a>
+          <a data-fancybox="gallery" href="pics/concert_perform_4.jpg"
+            ><img src="pics/concert_perform_4.jpg" alt="concert perform"
+          /></a>
+          <a data-fancybox="gallery" href="pics/concert_perform_5.jpg"
+            ><img src="pics/concert_perform_5.jpg" alt="concert perform"
+          /></a>
+          <a data-fancybox="gallery" href="pics/concert_perform_6.jpg"
+            ><img src="pics/concert_perform_6.jpg" alt="concert perform"
+          /></a>
+          <a data-fancybox="gallery" href="pics/concert_perform_7.jpg"
+            ><img src="pics/concert_perform_7.jpg" alt="concert perform"
+          /></a>
+          <a data-fancybox="gallery" href="pics/concert_perform_8.jpg"
+            ><img src="pics/concert_perform_8.jpg" alt="concert perform"
+          /></a>
+        </div>
+        <a href="javascript:;" class="bot-link">VIEW MORE PHOTO</a>
+      </div>
+    </section>
+    <!-- Photos End -->
+    <!-- Merch -->
+    <section class="merch-for-show">
+      <div class="container">
+        <h3>PREPARE YOUR GEAR FOR THE SHOW!</h3>
+        <div class="items">
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/tee.png" alt="TEE"
+            /></a>
+            <h4><a href="product_details.html">KILL THIS LOVE TEE</a></h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/hoodie.png" alt="Hoodie"
+            /></a>
+            <h4><a href="product_details.html">KILL THIS LOVE HOODIE</a></h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/photo_hoodie.png" alt="Photo Hoodie"
+            /></a>
+            <h4>
+              <a href="product_details.html">KILL THIS LOVE PHOTO HOODIE</a>
+            </h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/album.png" alt="Album Pink Ver."
+            /></a>
+            <h4>
+              <a href="product_details.html"
+                >KILL THIS LOVE ALBUM PINK VERSION</a
+              >
+            </h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <a href="store.html" class="bot-link">VIEW MORE PRODUCTS</a>
+      </div>
+    </section>
+    <!-- Merch End -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <h3><span>FOLLOW</span>US TO GET UPDATES FROM BLACKPINK</h3>
+        <div class="icons">
+          <a href="https://www.facebook.com/BLACKPINKOFFICIAL" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com/ygofficialblink" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/blackpinkofficial/?hl=zh-tw"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a
+            href="https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+            target="_blank"
+            ><i class="fab fa-spotify"></i
+          ></a>
+          <a
+            href="https://itunes.apple.com/tw/artist/blackpink/1141774019"
+            target="_blank"
+            ><i class="fab fa-apple"></i
+          ></a>
+        </div>
+        <span class="copyright">&copy;copyright 2019 all right reserved.</span>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="jquery.min.js"></script>
+    <script src="fancybox_dist/jquery.fancybox.min.js"></script>
+    <script src="JS/tour.js"></script>
+  </body>
+</html>

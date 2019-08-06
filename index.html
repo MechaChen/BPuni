@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BPuni</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <input type="checkbox" name="" id="menu_control" />
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="pics/Logo.jpg" alt="Logo"/></a>
+          <label class="hb" for="menu_control">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+          </label>
+        </div>
+        <nav>
+          <div class="nav-content">
+            <a href="tour.html">TOUR</a>
+            <a href="music_and_videos.html">MUSIC + VIDEOS</a>
+            <a href="store.html">STORE</a>
+            <a href="news.html">NEWS</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- New Song -->
+    <section class="new_song">
+      <div class="media">
+        <video muted loop autoplay>
+          <source src="MyMovie.mp4" type="video/mp4" />
+        </video>
+        <img src="./pics/banner.jpg" alt="banner" />
+      </div>
+      <div class="container">
+        <div class="text">
+          <p>THE NEW SINGLE</p>
+          <h1>KILL THIS LOVE</h1>
+          <div class="link">
+            <ul>
+              <li><a href="javascript:;" class="mv-link">WATCH</a></li>
+              <li><a href="#concert">TOUR</a></li>
+              <li><a href="#music">ALBUM</a></li>
+              <li><a href="#merch">MERCH</a></li>
+            </ul>
+            <a href="javascript:;" class="sub">SUBSCRIBE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- New Song end -->
+    <div class="mv">
+      <div class="youtube">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/2S24-y0Ij3Y"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!-- Concert -->
+    <section class="concert" id="concert">
+      <div class="container">
+        <h2>IN YOUR AREA TOUR</h2>
+        <ul>
+          <li>
+            <div class="date">MAY 03<span class="year">2019</span></div>
+            <div class="location">Park Theater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03<span class="year">2019</span></div>
+            <div class="location">Park Theater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03<span class="year">2019</span></div>
+            <div class="location">Park Theater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03<span class="year">2019</span></div>
+            <div class="location">Park Theater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+          <li>
+            <div class="date">MAY 03<span class="year">2019</span></div>
+            <div class="location">Park Theater <span>LAS VEGAS, NV</span></div>
+            <a href="javascript:;" class="ticket">TICKETS</a>
+          </li>
+        </ul>
+        <a class="bot-link" href="tour.html">VIEW MORE TOUR</a>
+      </div>
+    </section>
+    <!-- Concert End -->
+    <!-- Music -->
+    <section class="music" id="music">
+      <div class="container">
+        <div class="title">
+          <p>LISTEN TO</p>
+          <h2>KILL THIS LOVE</h2>
+        </div>
+        <div class="music-controls">
+          <div class="music-services">
+            <ul class="west-player">
+              <li class="active">
+                <a href="javascript:;" class="music-link active" id="spotify"
+                  >SPOTIFY <img src="pics/headphones.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript:;" class="music-link" id="apple_music"
+                  >APPLE MUSIC <img src="pics/headphones_dark.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript:;" class="music-link"
+                  >SOUND CLOUD <img src="pics/headphones_dark.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript:;" class="music-link"
+                  >PANDORA <img src="pics/headphones_dark.png" alt=""
+                /></a>
+              </li>
+            </ul>
+            <ul class="korean-player">
+              <li>
+                <a href="javascript:;" class="music-link genie"
+                  >GENIE <img src="pics/headphones_dark.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript:;" class="music-link melon"
+                  >MELON <img src="pics/headphones_dark.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="music_players">
+            <iframe
+              src="https://open.spotify.com/embed/album/2Pz8VAMiGc9UW1rrbBRDuO"
+              width="300"
+              height="380"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+              id="spotify_player"
+            ></iframe>
+            <iframe
+              allow="autoplay *; encrypted-media *;"
+              frameborder="0"
+              height="380"
+              style="width:100%;max-width:300px;overflow:hidden;background:transparent;"
+              src="https://embed.music.apple.com/us/album/kill-this-love-ep/1458062491"
+            ></iframe>
+          </div>
+          <div class="purchase-links">
+            <div class="digital">
+              <h3>Buy Digital</h3>
+              <ul>
+                <li>
+                  <a href="javascript:;"
+                    >ITUENS<i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="javascript:;"
+                    >AMAZON<i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="javascript:;"
+                    >GOOGLE<i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="physical">
+              <h3>Buy Physical</h3>
+              <ul>
+                <li>
+                  <a href="javascript:;"
+                    >STORE<i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="javascript:;"
+                    >RETAIL<i class="fas fa-arrow-right"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a href="music_and_videos.html" class="bot-link">VIEW MORE MUSIC </a>
+      </div>
+    </section>
+    <!-- Music End -->
+    <!-- Merch -->
+    <section class="merch" id="merch">
+      <div class="container">
+        <h3>BUY MERCH</h3>
+        <div class="items">
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/tee.png" alt="Tee"
+            /></a>
+            <h4><a href="product_details.html">KILL THIS LOVE TEE</a></h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/hoodie.png" alt="Hoodie"
+            /></a>
+            <h4><a href="product_details.html">KILL THIS LOVE HOODIE</a></h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/photo_hoodie.png" alt="Photo Hoodie"
+            /></a>
+            <h4>
+              <a href="product_details.html">KILL THIS LOVE PHOTO HOODIE</a>
+            </h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+          <div class="item">
+            <a href="product_details.html"
+              ><img src="pics/album.png" alt="TEE"
+            /></a>
+            <h4>
+              <a href="product_details.html"
+                >KILL THIS LOVE ALBUM PINK VERSION</a
+              >
+            </h4>
+            <div class="price">
+              <span>$65.00</span>
+              <a href="product_details.html">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <a href="store.html" class="bot-link">VIEW MORE PRODUCTS</a>
+      </div>
+    </section>
+    <!-- Merch End -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <h3><span>FOLLOW</span>US TO GET UPDATES FROM BLACKPINK</h3>
+        <div class="icons">
+          <a href="https://www.facebook.com/BLACKPINKOFFICIAL" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com/ygofficialblink" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/blackpinkofficial/?hl=zh-tw"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a
+            href="https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF"
+            target="_blank"
+            ><i class="fab fa-spotify"></i
+          ></a>
+          <a
+            href="https://itunes.apple.com/tw/artist/blackpink/1141774019"
+            target="_blank"
+            ><i class="fab fa-apple"></i
+          ></a>
+        </div>
+        <span class="copyright">&copy;copyright 2019 all right reserved.</span>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="jquery.min.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
